@@ -77,7 +77,7 @@ class TelegraphHelper:
         return
 
 
-telegraph = TelegraphHelper('Atrocious-Telegram-Mirror-Bot',
-                            'https://github.com/SN-Abdullah-Al-Noman/Atrocious_Mirror')
+telegraph = TelegraphHelper('Mr.SPIDY',
+                            'https://t.me/Mr_Spidy')
 
 bot_loop.run_until_complete(telegraph.create_account())
